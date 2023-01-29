@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-inconsolota{
+    font-family: 'Inconsolata', monospace;
+}
+
+.font-lora{
+    font-family: 'Lora', serif;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+
+.bg-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex {
+    display: flex;
+    /* height: 50px; */
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.mx-15 {
+    margin: 0 15px;
+}
+
+.td-none{
+    text-decoration: none;
+}
+
+.color-black{
+    color: black;
+}
+
+.td-none-li {
+    list-style: none;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center-1 {
+    justify-content: center;
+}
+
+.items-center-2 {
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.bold {
+    font-weight: 800;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.my-1 {
+    margin: 13px 0 13px 0;
+}
+
+.my-2 {
+    margin: 26px 0;
+}
+
+.px{
+    padding: 10px;
+}
+
+.px-1 {
+    padding: 0 13px 0 13px;
+}
+
+.color-blue {
+    color: rgb(226 73 55);
+}
+
+.btn {
+    padding: 7px 12px;
+    /* padding: top-bottom left-right; */
+    /* padding: y-axis x-axis; */
+    /* padding: top right bottom left; */
+
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(226 73 55);
+    cursor: pointer;
+}
+
+.bg-wheat{
+    background-color: rgb(196 124 115);
+}
+
+.highlited{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.bg-cyan{
+    background-color: cyan;
+}
+
+.bg-ntw{
+    background-color: #fffbfb;
+    border-radius: 45px;
+    /* /* background-color: #fff; */
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.body-bg{
+    background-color: #f2f9ff;
+}
